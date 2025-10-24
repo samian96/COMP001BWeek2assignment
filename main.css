@@ -115,7 +115,8 @@ p {
 }
 
 #text-intro {
-	text-indent: 3%; /*indents text*/
+	font-size: large; /*adjust font size larger then standard*/
+	text-indent: 1%; /*indents text*/
 	color: red; /*changes text color to red*/
 	border-style: solid ; /*changes border to solid line*/
 	border-color: red; /*changes border to red*/
@@ -123,7 +124,9 @@ p {
 	background-color: rgb(70, 70, 70); /*changes background color to dark grey*/
 	margin-left: 5px; /*adjust left margin 5pixels*/
 	margin-right: 5px; /*adjust right margin 5pixels*/
+	padding-top: 20px; /*adjust top of padding by 20px*/
+	padding-bottom: 10px; /*adjust bottom of padding by 10px*/
 	padding-left: 5px; /*adjust left padding 5pixels*/
 	padding-right: 5px; /*adjust right padding 5pixels*/
-	height: 50px; /*adjust height to 50px*/
+	height: 30px; /*adjust height to 30px*/
 }
