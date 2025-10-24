@@ -23,14 +23,15 @@ h1 {
 
 h2 {
 	font-size: 1.75em;
+	text-indent: 3%;
 }
 
 h3 {
 	font-size: 1.5em;
+	text-indent: 3%;
 }
 
 p {
-	text-align: left;
 
 }
 
@@ -63,6 +64,14 @@ p {
 }
 
 #section-about, #section-discography, #section-equipment {
+	border-style: solid ; /*changes border to solid line*/
+	border-color: red; /*changes border to red*/
+	border-width: 2px; /*adjust border width 2pixels*/
+	margin-left: 5px; /*adjust left margin 5pixels*/
+	margin-right: 5px; /*adjust right margin 5pixels*/
+	margin-top: 10px;  /*adjust top margin by 10px*/
+	padding-left: 5px; /*adjust left padding 5pixels*/
+	padding-right: 5px; /*adjust right padding 5pixels*/
 
 }
 
