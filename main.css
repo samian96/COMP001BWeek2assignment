@@ -30,6 +30,7 @@ h3 {
 }
 
 p {
+	text-align: left;
 
 }
 
@@ -66,16 +67,15 @@ p {
 }
 
 #text-intro {
-	text-indent: 3%;
-	text-align: center,left;
-	color: red;
-	border-style: solid ;
-	border-color: red;
-	border-width: 2px;
-	background-color: rgb(70, 70, 70);
-	margin-left: 5px;
-	margin-right: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	height: 50px;
+	text-indent: 3%; /*indents text*/
+	color: red; /*changes text color to red*/
+	border-style: solid ; /*changes border to solid line*/
+	border-color: red; /*changes border to red*/
+	border-width: 2px; /*adjust border width 2pixels*/
+	background-color: rgb(70, 70, 70); /*changes background color to dark grey*/
+	margin-left: 5px; /*adjust left margin 5pixels*/
+	margin-right: 5px; /*adjust right margin 5pixels*/
+	padding-left: 5px; /*adjust left padding 5pixels*/
+	padding-right: 5px; /*adjust right padding 5pixels*/
+	height: 50px; /*adjust height to 50px*/
 }
