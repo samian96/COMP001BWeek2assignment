@@ -36,7 +36,17 @@ p {
 }
 
 .album-art {
-
+	border-style: solid ; /*changes border to solid line*/
+	border-color: red; /*changes border to red*/
+	border-width: 2px; /*adjust border width 2pixels*/
+	margin-left: 50px; /*adjust left margin 5pixels*/
+	margin-right: 5px; /*adjust right margin 5pixels*/
+	margin-top: 10px;  /*adjust top margin by 10px*/
+	padding-left: 10px; /*adjust left padding 10pixels*/
+	padding-right: 10px; /*adjust right padding 10pixels*/
+	padding-top: 10px; /*adjust top of padding 10px*/
+	padding-bottom: 10px; /*adjusts bottom padding 10px*/
+	width: 15%;
 }
 
 .clear {
@@ -48,7 +58,7 @@ p {
 }
 
 .record-label {
-
+	color: red;
 }
 
 .track-list {
@@ -56,12 +66,15 @@ p {
 }
 
 #about-photo {
+	display: flex; /*makes about-photo a container*/
+	float: left; /*positions to the left*/
 	border-style: solid ; /*changes border to solid line*/
 	border-color: red; /*changes border to red*/
 	border-width: 2px; /*adjust border width 2pixels*/
 	margin-left: 5px; /*adjust left margin 5pixels*/
 	margin-right: 5px; /*adjust right margin 5pixels*/
 	margin-top: 10px;  /*adjust top margin by 10px*/
+	margin-bottom: 10px; /*adjust bottom of margin by 10px*/
 	padding-left: 10px; /*adjust left padding 10pixels*/
 	padding-right: 10px; /*adjust right padding 10pixels*/
 	padding-top: 10px; /*adjust top of padding 10px*/
