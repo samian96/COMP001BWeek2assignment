@@ -98,7 +98,7 @@ p {
 }
 
 #copyright {
-
+	color: red; /*changed font color to red*/
 }
 
 #section-about, #section-discography, #section-equipment {
