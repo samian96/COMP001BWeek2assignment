@@ -41,8 +41,8 @@ p {
 	border-style: solid ; /*changes border to solid line*/
 	border-color: red; /*changes border to red*/
 	border-width: 2px; /*adjust border width 2pixels*/
-	margin-left: 50px; /*adjust left margin 5pixels*/
-	margin-right: 30px; /*adjust right margin 5pixels*/
+	margin-left: 50px; /*adjust left margin 50pixels*/
+	margin-right: 30px; /*adjust right margin 30pixels*/
 	margin-top: 20px;  /*adjust top margin by 20px*/
 	margin-bottom: 10px; /*adjust bottom margin by 10px*/
 	padding-left: 10px; /*adjust left padding 10pixels*/
@@ -57,7 +57,20 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
-	
+	display: flex; /*makes about-photo a container*/
+	float: left; /*positions to the left*/
+	border-style: solid ; /*changes border to solid line*/
+	border-color: red; /*changes border to red*/
+	border-width: 2px; /*adjust border width 2pixels*/
+	margin-left: 40px; /*adjust left margin 40pixels*/
+	margin-right: 40px; /*adjust right margin 40pixels*/
+	margin-top: 40px;  /*adjust top margin by 40px*/
+	margin-bottom: 10px; /*adjust bottom of margin by 10px*/
+	padding-left: 10px; /*adjust left padding 10pixels*/
+	padding-right: 10px; /*adjust right padding 10pixels*/
+	padding-top: 10px; /*adjust top of padding 10px*/
+	padding-bottom: 10px; /*adjusts bottom padding 10px*/
+	width: 15%;
 }
 
 .record-label {
